@@ -1,0 +1,7 @@
+{
+    "app": {
+        "mongolab": "mongodb://parwat:parwat@ds121171.mlab.com:21171/app",
+        "mongolocal": "mongodb://localhost:27017/assign",
+        "port": 8080
+    }
+}
