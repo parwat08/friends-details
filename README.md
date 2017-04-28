@@ -48,7 +48,7 @@
 
 - The **POST** method is used to Insert the friend details, with valid schema fields
 
-**GET, PUT, DELETE:** *`localhost:8080/friend/{id}`*
+**GET, PUT, DELETE:** *`localhost:8080/api/friend/{id}`*
 
 - The **GET** method is used to retrive a specific friends detail with the id provided as the url path `{id}`
 
