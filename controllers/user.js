@@ -28,9 +28,11 @@ router.route('/profile')
         const data = {
             name: req.body.name,
             address: req.body.address,
-            phone: req.body.phone,
             image: req.body.image,
         };
+        if (req.body.phone) {
+            data.phone = req.body.phone;
+        }
         User.findOneAndUpdate({ email: user.email }, { $set: data }, { new: true }, (e, u) => {
             if (e) return res.status(500).send(e);
             return res.send(u);
