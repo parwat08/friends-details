@@ -22,7 +22,7 @@
 
 **GET, PUT, DELETE:** *`localhost:8080/api/profile`*
 
-- **POST** method is 
+- **POST** method is **POST** *`localhost:8080/api/signup`*
 
 - **GET** method here is to retrieve the current logged in user profile details, with the jwt token in authorization headers
 
