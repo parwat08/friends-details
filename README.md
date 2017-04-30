@@ -1,5 +1,15 @@
 ## **API EndPoints**
 
+-------
+
+*NOTE:*
+
+- API's path for user can also done as *`localhost:8080/api/users/******`* 
+   
+- Route for users password reset will be implemented soon.
+
+-----------
+
 ### **User SignUp, Email Verification and Authentication**
 
 **POST:** *`localhost:8080/api/signup`* 
