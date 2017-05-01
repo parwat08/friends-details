@@ -8,6 +8,12 @@
    
 - Route for users password reset and user logout will be implemented soon.
 
+- POST *`localhost:8080/api/password_reset`* 
+
+- GET *`localhost:8080/api/password_reset/:token`*
+
+- GET *`localhost:8080/api/user/logout`* 
+
 -----------
 
 ### **User SignUp, Email Verification and Authentication**
