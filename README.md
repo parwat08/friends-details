@@ -12,7 +12,7 @@
 
 - GET *`localhost:8080/api/password_reset/:token`*
 
-- GET *`localhost:8080/api/user/logout`* 
+- GET *`localhost:8080/api/user/logout`*  destroys jwt from client-side
 
 -----------
 
