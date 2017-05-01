@@ -6,7 +6,7 @@
 
 - API's path for user can also done as *`localhost:8080/api/users/******`* 
    
-- Route for users password reset will be implemented soon.
+- Route for users password reset and user logout will be implemented soon.
 
 -----------
 
